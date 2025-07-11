@@ -3,7 +3,7 @@ function Student(name,age,id){
     this.age=age
     this.id=id
     this.display=function(){
-        console.log("Name is ",this.name)
+        console.log("Name is ",name)
         console.log("ID is ",this.id)
         console.log("Age is ",this.age)
 
