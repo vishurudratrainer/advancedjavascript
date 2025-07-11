@@ -25,3 +25,6 @@ s1.getCountry()
 
 s3 = Object.assign({},s2)//creates a copyof object with properties inlized from other object
 console.log(JSON.stringify(s3))
+console.log(Object.keys(s3))
+console.log(Object.values(s3))
+console.log(Object.entries(s3))
