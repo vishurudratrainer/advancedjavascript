@@ -5,4 +5,4 @@ const runNTimes=(func,n,delay=0)=>{
     }
 }
 
-runNTimes(()=>console.log("Running"),5)
+runNTimes(()=>console.log("Running"),5,4000)

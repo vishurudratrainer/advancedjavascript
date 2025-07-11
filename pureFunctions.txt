@@ -1,0 +1,6 @@
+
+Function is said pure functions
+
+1)function should take argument
+2) funtion should return a result
+3) function should not modify paramters//side effects
