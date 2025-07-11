@@ -17,4 +17,6 @@ var book= {
 console.log(book["bookName"])
 for(let chapter of book.chapters){
     console.log(chapter["chapterName"])
+    console.log("chapterName" in chapter)
+    //to check whether a property is present in given object or not
 }
