@@ -12,6 +12,7 @@ function Student(name,age,id){
 //Student.country="America" --this will not work beacuse we cannot directly assign
 Student.prototype.country="America"
 Student.prototype.getCountry=function(){
+    this.display()
     console.log("Country is ",this.country)
 }
 s1=new Student("Raju",22,1)
