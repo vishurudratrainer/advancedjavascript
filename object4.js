@@ -22,3 +22,6 @@ s2.display()
 console.log(s1.country)
 s1.getCountry()
 //Using inbuild prototype function we can add new properties
+
+s3 = Object.assign({},s2)//creates a copyof object with properties inlized from other object
+console.log(JSON.stringify(s3))
