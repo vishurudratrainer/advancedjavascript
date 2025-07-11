@@ -10,3 +10,6 @@ const person = {
 };
 
 console.log(person.fullName)
+person.fullName ="Raju"
+console.log(person.fullName)
+
