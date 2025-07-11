@@ -15,6 +15,7 @@ Student.prototype.getCountry=function(){
     console.log("Country is ",this.country)
 }
 s1=new Student("Raju",22,1)
+s1.country="India"
 console.log(JSON.stringify(s1))
 s2 = new Student("Vishwa",55,2)
 console.log(JSON.stringify(s2))
