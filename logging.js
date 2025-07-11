@@ -1,3 +1,3 @@
-const {log} =console
+const {log} =console //this is called destructring
 
 log("Hello World")
