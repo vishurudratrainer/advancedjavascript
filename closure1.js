@@ -13,3 +13,4 @@ const noOfUsers = UserCounter(10);
 console.log(noOfUsers());
 console.log(noOfUsers(false));
 console.log(noOfUsers(false));
+console.log(noOfUsers.count)//will come undefined beacuse we are returning function
