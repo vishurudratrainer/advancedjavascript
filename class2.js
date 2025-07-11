@@ -12,8 +12,12 @@ class Child1 extends Parent1{
         super(p1)
         this.p2=p2
     }
+    displayP2(){
+        console.log("From p2",this.p2)
+    }
 }
 
 var c1 = new Child1(22,33)
 c1.displayP1()
 console.log(c1.p2)
+c1.displayP2()
